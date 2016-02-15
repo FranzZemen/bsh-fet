@@ -17,7 +17,18 @@ necessary in node.
         response.end();
     });
 
+    /* The above could also be written as:
+    httpServer.createServer(function (request,response) {
+        console.log('got request');
+        response.statusMessage = 'OK';
+        response.statusCode = 200;
+        response.write ('Hello World');
+        response.end();
+    });
+    */
+
     httpServer.listen(80, function () {
         console.log('I\'m listening on port 80!');
     });
+
 })();
