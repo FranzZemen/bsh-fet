@@ -1,0 +1,21 @@
+{
+  "name": "angular-binding",
+  "homepage": "https://github.com/FranzZemen/bsh-fet",
+  "authors": [
+    "FranzZemen <FranzZemen@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}
