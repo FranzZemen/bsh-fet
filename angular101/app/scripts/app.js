@@ -28,7 +28,7 @@ angular
       .when('/city', {
         templateUrl: 'views/city.html',
         controller: 'CityCtrl',
-        controllerAs: 'city'
+        controllerAs: 'cityCtrl'
       })
       .otherwise({
         redirectTo: '/'

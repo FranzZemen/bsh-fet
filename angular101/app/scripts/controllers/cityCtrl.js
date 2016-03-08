@@ -10,4 +10,12 @@
 angular.module('angular101App')
   .controller('CityCtrl', ['$scope','cityService', function ($scope, cityService) {
     $scope.cities = cityService.cities();
+
+    this.alertCity = function () {
+      alert($scope.selectedCity);
+    };
+
+    $scope.setNewYork = function () {
+      $scope.selectedCity = 'New York';
+    };
   }]);
